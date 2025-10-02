@@ -3,6 +3,10 @@ import { Button } from "@/components/ui/button";
 import { Crown, Car, Shield, Award } from "lucide-react";
 import monarchLogo from "@/assets/monarch-logo.jpeg";
 import HeroSlideshow from "@/components/HeroSlideshow";
+import Testimonials from "@/components/Testimonials";
+import WhyChooseUs from "@/components/WhyChooseUs";
+import VehicleCare from "@/components/VehicleCare";
+import CTABanner from "@/components/CTABanner";
 
 const Home = () => {
   return (
@@ -130,27 +134,17 @@ const Home = () => {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-br from-primary via-primary/95 to-accent">
-        <div className="container mx-auto px-6">
-          <div className="max-w-3xl mx-auto text-center">
-            <h2 className="font-playfair font-bold text-4xl md:text-5xl text-primary-foreground mb-6">
-              Ready to Drive in Style?
-            </h2>
-            <p className="text-xl text-primary-foreground/90 mb-8">
-              Browse our premium fleet and reserve your luxury vehicle today
-            </p>
-            <Link to="/fleet">
-              <Button 
-                size="lg"
-                className="bg-secondary hover:bg-secondary/90 text-secondary-foreground font-semibold px-10 py-6 text-lg shadow-royal transition-all duration-300 hover:scale-105"
-              >
-                Explore Our Fleet
-              </Button>
-            </Link>
-          </div>
-        </div>
-      </section>
+      {/* Why Choose Us */}
+      <WhyChooseUs />
+
+      {/* Vehicle Care */}
+      <VehicleCare />
+
+      {/* Testimonials */}
+      <Testimonials />
+
+      {/* CTA Banner */}
+      <CTABanner />
     </div>
   );
 };
