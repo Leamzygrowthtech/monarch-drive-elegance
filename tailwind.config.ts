@@ -13,6 +13,10 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        playfair: ['Playfair Display', 'serif'],
+        inter: ['Inter', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -84,6 +88,11 @@ export default {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+      },
+      boxShadow: {
+        'gold': 'var(--shadow-gold)',
+        'royal': 'var(--shadow-royal)',
+        'soft': 'var(--shadow-soft)',
       },
     },
   },
