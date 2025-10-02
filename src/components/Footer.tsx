@@ -1,4 +1,5 @@
 import { Crown } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -29,24 +30,24 @@ const Footer = () => {
             </h3>
             <ul className="space-y-2">
               <li>
-                <a href="#fleet" className="text-secondary-foreground/70 hover:text-primary transition-colors">
+                <Link to="/fleet" className="text-secondary-foreground/70 hover:text-primary transition-colors">
                   Our Fleet
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#locations" className="text-secondary-foreground/70 hover:text-primary transition-colors">
-                  Locations
-                </a>
-              </li>
-              <li>
-                <a href="#pricing" className="text-secondary-foreground/70 hover:text-primary transition-colors">
-                  Pricing
-                </a>
-              </li>
-              <li>
-                <a href="#about" className="text-secondary-foreground/70 hover:text-primary transition-colors">
+                <Link to="/about" className="text-secondary-foreground/70 hover:text-primary transition-colors">
                   About Us
-                </a>
+                </Link>
+              </li>
+              <li>
+                <Link to="/contact" className="text-secondary-foreground/70 hover:text-primary transition-colors">
+                  Contact
+                </Link>
+              </li>
+              <li>
+                <Link to="/" className="text-secondary-foreground/70 hover:text-primary transition-colors">
+                  Home
+                </Link>
               </li>
             </ul>
           </div>
@@ -58,14 +59,14 @@ const Footer = () => {
             </h3>
             <ul className="space-y-2">
               <li>
-                <a href="#faq" className="text-secondary-foreground/70 hover:text-primary transition-colors">
-                  FAQ
-                </a>
+                <Link to="/contact" className="text-secondary-foreground/70 hover:text-primary transition-colors">
+                  Contact Us
+                </Link>
               </li>
               <li>
-                <a href="#contact" className="text-secondary-foreground/70 hover:text-primary transition-colors">
-                  Contact Us
-                </a>
+                <Link to="/about" className="text-secondary-foreground/70 hover:text-primary transition-colors">
+                  FAQ
+                </Link>
               </li>
               <li>
                 <a href="#terms" className="text-secondary-foreground/70 hover:text-primary transition-colors">
