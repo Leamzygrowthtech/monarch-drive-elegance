@@ -2,20 +2,22 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Crown, Car, Shield, Award } from "lucide-react";
 import monarchLogo from "@/assets/monarch-logo.jpeg";
+import HeroSlideshow from "@/components/HeroSlideshow";
 
 const Home = () => {
   return (
     <div className="min-h-screen font-inter">
       {/* Hero Section */}
       <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-secondary via-secondary/95 to-secondary/80" />
+        {/* Slideshow Background */}
+        <HeroSlideshow />
         
-        <div className="absolute inset-0 overflow-hidden opacity-5">
+        <div className="absolute inset-0 overflow-hidden opacity-5 z-10">
           <Crown className="absolute top-20 left-10 w-32 h-32 animate-pulse" />
           <Crown className="absolute bottom-20 right-10 w-40 h-40 animate-pulse" style={{ animationDelay: '1s' }} />
         </div>
 
-        <div className="relative z-10 container mx-auto px-6 py-20">
+        <div className="relative z-20 container mx-auto px-6 py-20">
           <div className="max-w-5xl mx-auto text-center">
             <div className="mb-8 flex justify-center">
               <img 
