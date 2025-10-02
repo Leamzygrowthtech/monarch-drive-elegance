@@ -1,6 +1,7 @@
 import Features from "@/components/Features";
 import HowItWorks from "@/components/HowItWorks";
 import { Crown } from "lucide-react";
+import teamServiceImg from "@/assets/team-service.jpg";
 
 const About = () => {
   return (
@@ -51,22 +52,34 @@ const About = () => {
                   customers, from business executives to families seeking memorable adventures.
                 </p>
               </div>
-              <div className="grid grid-cols-2 gap-6">
-                <div className="bg-card border border-border rounded-lg p-6 text-center shadow-soft">
-                  <div className="font-playfair text-4xl font-bold text-primary mb-2">500+</div>
-                  <div className="text-sm text-muted-foreground">Premium Vehicles</div>
+              
+              {/* Image & Stats Grid */}
+              <div className="space-y-6">
+                <div className="relative rounded-lg overflow-hidden shadow-gold">
+                  <img 
+                    src={teamServiceImg} 
+                    alt="Monarch Team Service"
+                    className="w-full h-64 object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-secondary/60 to-transparent" />
                 </div>
-                <div className="bg-card border border-border rounded-lg p-6 text-center shadow-soft">
-                  <div className="font-playfair text-4xl font-bold text-primary mb-2">50+</div>
-                  <div className="text-sm text-muted-foreground">Global Locations</div>
-                </div>
-                <div className="bg-card border border-border rounded-lg p-6 text-center shadow-soft">
-                  <div className="font-playfair text-4xl font-bold text-primary mb-2">10k+</div>
-                  <div className="text-sm text-muted-foreground">Happy Customers</div>
-                </div>
-                <div className="bg-card border border-border rounded-lg p-6 text-center shadow-soft">
-                  <div className="font-playfair text-4xl font-bold text-primary mb-2">24/7</div>
-                  <div className="text-sm text-muted-foreground">Customer Support</div>
+                <div className="grid grid-cols-2 gap-4">
+                  <div className="bg-card border border-border rounded-lg p-6 text-center shadow-soft hover:shadow-gold transition-all duration-300 hover:-translate-y-1">
+                    <div className="font-playfair text-4xl font-bold text-primary mb-2">500+</div>
+                    <div className="text-sm text-muted-foreground">Premium Vehicles</div>
+                  </div>
+                  <div className="bg-card border border-border rounded-lg p-6 text-center shadow-soft hover:shadow-gold transition-all duration-300 hover:-translate-y-1">
+                    <div className="font-playfair text-4xl font-bold text-primary mb-2">50+</div>
+                    <div className="text-sm text-muted-foreground">Global Locations</div>
+                  </div>
+                  <div className="bg-card border border-border rounded-lg p-6 text-center shadow-soft hover:shadow-gold transition-all duration-300 hover:-translate-y-1">
+                    <div className="font-playfair text-4xl font-bold text-primary mb-2">10k+</div>
+                    <div className="text-sm text-muted-foreground">Happy Customers</div>
+                  </div>
+                  <div className="bg-card border border-border rounded-lg p-6 text-center shadow-soft hover:shadow-gold transition-all duration-300 hover:-translate-y-1">
+                    <div className="font-playfair text-4xl font-bold text-primary mb-2">24/7</div>
+                    <div className="text-sm text-muted-foreground">Customer Support</div>
+                  </div>
                 </div>
               </div>
             </div>

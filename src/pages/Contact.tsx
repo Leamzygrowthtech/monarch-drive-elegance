@@ -3,6 +3,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import serviceCenterImg from "@/assets/service-center.jpg";
 
 const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
@@ -33,8 +34,17 @@ const Contact = () => {
       </section>
 
       {/* Contact Info & Form */}
-      <section className="py-20 bg-background">
-        <div className="container mx-auto px-6">
+      <section className="py-20 bg-background relative">
+        {/* Background Image */}
+        <div className="absolute inset-0 opacity-5">
+          <img 
+            src={serviceCenterImg} 
+            alt="Service Center"
+            className="w-full h-full object-cover"
+          />
+        </div>
+        
+        <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
             {/* Contact Information */}
             <div>
