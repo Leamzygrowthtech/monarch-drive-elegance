@@ -8,6 +8,9 @@ import nissanNoteImg from "@/assets/car-nissan-note-white.jpg";
 import hondaFitRed2 from "@/assets/honda-fit-red-side.jpg";
 import mazdaDemioSilverFront from "@/assets/mazda-demio-silver-front.jpg";
 import mazdaDemioSilverBack from "@/assets/mazda-demio-silver-back.jpg";
+import mazdaDemioBackseat from "@/assets/mazda-demio-backseat.jpg";
+import mazdaDemioFrontInterior from "@/assets/mazda-demio-front-interior.jpg";
+import mazdaDemioTrunk from "@/assets/mazda-demio-trunk-open.jpg";
 
 const fleetData = [
   {
@@ -66,6 +69,36 @@ const fleetData = [
     features: ["5 Passengers", "Fuel Efficient", "Modern Design"],
     icon: Users,
     image: mazdaDemioSilverFront,
+    priceNairobi: "3,000 KSH",
+    priceOutside: "3,500 KSH",
+    type: "Self-drive"
+  },
+  {
+    category: "Mazda Demio - Spacious Interior",
+    description: "Comfortable backseat with premium leather",
+    features: ["Leather Seats", "Spacious Cabin", "Premium Comfort"],
+    icon: Users,
+    image: mazdaDemioBackseat,
+    priceNairobi: "3,000 KSH",
+    priceOutside: "3,500 KSH",
+    type: "Self-drive"
+  },
+  {
+    category: "Mazda Demio - Modern Dashboard",
+    description: "Advanced controls and comfortable driving position",
+    features: ["Modern Interior", "Easy Controls", "Comfortable Seats"],
+    icon: Gauge,
+    image: mazdaDemioFrontInterior,
+    priceNairobi: "3,000 KSH",
+    priceOutside: "3,500 KSH",
+    type: "Self-drive"
+  },
+  {
+    category: "Mazda Demio - Generous Storage",
+    description: "Ample trunk space for your luggage",
+    features: ["Large Trunk", "Flexible Storage", "Emergency Kit Included"],
+    icon: Shield,
+    image: mazdaDemioTrunk,
     priceNairobi: "3,000 KSH",
     priceOutside: "3,500 KSH",
     type: "Self-drive"
