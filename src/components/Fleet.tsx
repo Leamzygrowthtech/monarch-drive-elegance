@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Car, Users, Gauge, Shield, Crown, MapPin } from "lucide-react";
+import { Car, Users, Gauge, Shield, Crown, MapPin, Truck } from "lucide-react";
 import hondaFitImg from "@/assets/car-honda-fit-red.jpg";
 import mazdaDemioSilverImg from "@/assets/car-mazda-demio-silver.jpg";
 import mazdaDemioWhiteImg from "@/assets/car-mazda-demio-white-back.jpg";
@@ -15,6 +15,11 @@ import mazdaDemioWhiteSide from "@/assets/mazda-demio-white-side.jpg";
 import mazdaDemioWhiteFront from "@/assets/mazda-demio-white-front.jpg";
 import mazdaDemioWhiteInterior from "@/assets/mazda-demio-white-interior.jpg";
 import mazdaDemioGrayFront from "@/assets/mazda-demio-gray-front.jpg";
+import mazdaCx5WhiteFront from "@/assets/mazda-cx5-white-front.jpg";
+import mazdaCx5RedFront from "@/assets/mazda-cx5-red-front.jpg";
+import mazdaCx5RedSide from "@/assets/mazda-cx5-red-side.jpg";
+import rangeRoverWhiteFront from "@/assets/range-rover-white-front.jpg";
+import toyotaHarrierBlackFront from "@/assets/toyota-harrier-black-front.jpg";
 
 const fleetData = [
   {
@@ -105,6 +110,56 @@ const fleetData = [
     image: mazdaDemioGrayFront,
     priceNairobi: "3,000 KSH",
     priceOutside: "3,500 KSH",
+    type: "Self-drive"
+  },
+  {
+    category: "Mazda CX-5 White - KDP U68U",
+    description: "Premium white SUV with elegant design",
+    features: ["7 Passengers", "AWD", "Luxury Interior"],
+    icon: Truck,
+    image: mazdaCx5WhiteFront,
+    priceNairobi: "5,500 KSH",
+    priceOutside: "5,500 KSH",
+    type: "Self-drive"
+  },
+  {
+    category: "Mazda CX-5 Red - KDP 556S",
+    description: "Striking red SUV with premium features",
+    features: ["7 Passengers", "AWD", "Sport Mode"],
+    icon: Truck,
+    image: mazdaCx5RedFront,
+    priceNairobi: "5,500 KSH",
+    priceOutside: "5,500 KSH",
+    type: "Self-drive"
+  },
+  {
+    category: "Mazda CX-5 Red - Side View",
+    description: "Dynamic SUV with sporty styling",
+    features: ["Spacious Cabin", "Premium Wheels", "Modern Design"],
+    icon: Truck,
+    image: mazdaCx5RedSide,
+    priceNairobi: "5,500 KSH",
+    priceOutside: "5,500 KSH",
+    type: "Self-drive"
+  },
+  {
+    category: "Range Rover Sport - KDP 558B",
+    description: "Luxury white Range Rover Sport",
+    features: ["Premium SUV", "All Terrain", "Luxury Features"],
+    icon: Crown,
+    image: rangeRoverWhiteFront,
+    priceNairobi: "5,500 KSH",
+    priceOutside: "5,500 KSH",
+    type: "Self-drive"
+  },
+  {
+    category: "Toyota Harrier - KDB 916B",
+    description: "Elegant black Toyota Harrier",
+    features: ["Hybrid", "Premium Interior", "Advanced Safety"],
+    icon: Shield,
+    image: toyotaHarrierBlackFront,
+    priceNairobi: "5,500 KSH",
+    priceOutside: "5,500 KSH",
     type: "Self-drive"
   },
 ];
