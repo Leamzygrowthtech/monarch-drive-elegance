@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import FleetPage from "./pages/FleetPage";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import Gallery from "./pages/Gallery";
 import NotFound from "./pages/NotFound";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -23,6 +24,7 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/fleet" element={<FleetPage />} />
+          <Route path="/gallery" element={<Gallery />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
