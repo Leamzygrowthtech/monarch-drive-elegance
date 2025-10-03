@@ -11,6 +11,10 @@ import mazdaDemioSilverBack from "@/assets/mazda-demio-silver-back.jpg";
 import mazdaDemioBackseat from "@/assets/mazda-demio-backseat.jpg";
 import mazdaDemioFrontInterior from "@/assets/mazda-demio-front-interior.jpg";
 import mazdaDemioTrunk from "@/assets/mazda-demio-trunk-open.jpg";
+import mazdaDemioWhiteSide from "@/assets/mazda-demio-white-side.jpg";
+import mazdaDemioWhiteFront from "@/assets/mazda-demio-white-front.jpg";
+import mazdaDemioWhiteInterior from "@/assets/mazda-demio-white-interior.jpg";
+import mazdaDemioGrayFront from "@/assets/mazda-demio-gray-front.jpg";
 
 const fleetData = [
   {
@@ -99,6 +103,36 @@ const fleetData = [
     features: ["Large Trunk", "Flexible Storage", "Emergency Kit Included"],
     icon: Shield,
     image: mazdaDemioTrunk,
+    priceNairobi: "3,000 KSH",
+    priceOutside: "3,500 KSH",
+    type: "Self-drive"
+  },
+  {
+    category: "Mazda Demio White - KDK 285B",
+    description: "Pristine white Mazda with premium features",
+    features: ["5 Passengers", "Two-Tone Interior", "Sport Styling"],
+    icon: Car,
+    image: mazdaDemioWhiteFront,
+    priceNairobi: "3,000 KSH",
+    priceOutside: "3,500 KSH",
+    type: "Self-drive"
+  },
+  {
+    category: "Mazda Demio - Premium Interior",
+    description: "Elegant two-tone seats with red accents",
+    features: ["Premium Seats", "Modern Design", "Comfort Plus"],
+    icon: Crown,
+    image: mazdaDemioWhiteInterior,
+    priceNairobi: "3,000 KSH",
+    priceOutside: "3,500 KSH",
+    type: "Self-drive"
+  },
+  {
+    category: "Mazda Demio Sport - KDL 593N",
+    description: "Dark gray sporty Mazda with dynamic styling",
+    features: ["Sport Design", "5 Passengers", "Modern Features"],
+    icon: Gauge,
+    image: mazdaDemioGrayFront,
     priceNairobi: "3,000 KSH",
     priceOutside: "3,500 KSH",
     type: "Self-drive"
