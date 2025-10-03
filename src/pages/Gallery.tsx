@@ -45,12 +45,26 @@ import mazdaDemioGrayFront from "@/assets/mazda-demio-gray-front.jpg";
 
 // Nissan Note Images
 import nissanNoteWhite from "@/assets/car-nissan-note-white.jpg";
+import nissanNoteSilver from "@/assets/nissan-note-silver.jpg";
+import nissanNoteBack from "@/assets/nissan-note-back.jpg";
+import nissanNoteFront from "@/assets/nissan-note-front.jpg";
+import nissanNoteSide from "@/assets/nissan-note-side.jpg";
+import nissanNoteBackAngle from "@/assets/nissan-note-back-angle.jpg";
+import nissanNoteInterior from "@/assets/nissan-note-interior.jpg";
+
+// Mazda Detail Images
+import mazdaDemioEngineOpen from "@/assets/mazda-demio-engine-open.jpg";
+import mazdaDemioHeadlight from "@/assets/mazda-demio-headlight.jpg";
+import mazdaInteriorFull from "@/assets/mazda-interior-full.jpg";
+import mazdaSteeringWheel from "@/assets/mazda-steering-wheel.jpg";
+
 
 // Mazda CX-5 Images
 import mazdaCx5WhiteBack from "@/assets/mazda-cx5-white-back.jpg";
 import mazdaCx5WhiteFront from "@/assets/mazda-cx5-white-front.jpg";
 import mazdaCx5RedFront from "@/assets/mazda-cx5-red-front.jpg";
 import mazdaCx5RedSide from "@/assets/mazda-cx5-red-side.jpg";
+
 
 // Range Rover Images
 import rangeRoverWhiteBack from "@/assets/range-rover-white-back.jpg";
@@ -105,6 +119,18 @@ const galleryImages = [
   
   // Nissan Note
   { src: nissanNoteWhite, alt: "Nissan Note White", category: "Nissan Note" },
+  { src: nissanNoteSilver, alt: "Nissan Note Silver Exterior", category: "Nissan Note" },
+  { src: nissanNoteFront, alt: "Nissan Note Front View", category: "Nissan Note" },
+  { src: nissanNoteSide, alt: "Nissan Note Side View", category: "Nissan Note" },
+  { src: nissanNoteBack, alt: "Nissan Note Back View", category: "Nissan Note" },
+  { src: nissanNoteBackAngle, alt: "Nissan Note Back Angle", category: "Nissan Note" },
+  { src: nissanNoteInterior, alt: "Nissan Note Interior", category: "Nissan Note" },
+  
+  // Mazda Details
+  { src: mazdaDemioEngineOpen, alt: "Mazda Engine Bay", category: "Mazda Demio" },
+  { src: mazdaDemioHeadlight, alt: "Mazda Headlight Detail", category: "Mazda Demio" },
+  { src: mazdaInteriorFull, alt: "Mazda Interior Full View", category: "Mazda Demio" },
+  { src: mazdaSteeringWheel, alt: "Mazda Steering Wheel", category: "Mazda Demio" },
   
   // Mazda CX-5
   { src: mazdaCx5WhiteBack, alt: "Mazda CX-5 White Back", category: "Mazda CX-5" },
