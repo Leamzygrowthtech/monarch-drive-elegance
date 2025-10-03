@@ -17,9 +17,12 @@ const Footer = () => {
                 <div className="font-semibold text-secondary-foreground">CAR RENTAL</div>
               </div>
             </div>
-            <p className="text-secondary-foreground/70 max-w-md leading-relaxed">
-              Experience royalty on the road with our premium luxury vehicle rental service. 
-              Exceptional quality, unmatched service, unforgettable journeys.
+            <p className="text-secondary-foreground/70 max-w-md leading-relaxed mb-4">
+              Where luxury meets affordability. Self-drive car rentals around Nairobi and beyond.
+            </p>
+            <p className="text-secondary-foreground/70 max-w-md text-sm">
+              📍 Umoja Phase 2, Bee Center<br />
+              📞 +254 0759 342212
             </p>
           </div>
 

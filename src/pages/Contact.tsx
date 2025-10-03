@@ -59,8 +59,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-secondary mb-1">Phone</h3>
-                    <a href="tel:+1234567890" className="text-muted-foreground hover:text-primary transition-colors">
-                      +1 (234) 567-890
+                    <a href="tel:+254759342212" className="text-muted-foreground hover:text-primary transition-colors">
+                      +254 0759 342212
                     </a>
                     <p className="text-sm text-muted-foreground">24/7 Support Line</p>
                   </div>
@@ -72,8 +72,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-secondary mb-1">Email</h3>
-                    <a href="mailto:info@monarchrental.com" className="text-muted-foreground hover:text-primary transition-colors">
-                      info@monarchrental.com
+                    <a href="mailto:info@monarchcarrental.com" className="text-muted-foreground hover:text-primary transition-colors">
+                      info@monarchcarrental.com
                     </a>
                     <p className="text-sm text-muted-foreground">We'll respond within 24 hours</p>
                   </div>
@@ -84,9 +84,9 @@ const Contact = () => {
                     <MapPin className="w-6 h-6 text-primary" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-secondary mb-1">Locations</h3>
-                    <p className="text-muted-foreground">50+ Locations Worldwide</p>
-                    <p className="text-sm text-muted-foreground">Find your nearest branch</p>
+                    <h3 className="font-semibold text-secondary mb-1">Location</h3>
+                    <p className="text-muted-foreground">Umoja Phase 2, Bee Center</p>
+                    <p className="text-sm text-muted-foreground">Nairobi, Kenya</p>
                   </div>
                 </div>
 
@@ -186,8 +186,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <div className="font-semibold text-primary-foreground mb-1">Call Us</div>
-                  <a href="tel:+1234567890" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
-                    +1 (234) 567-890
+                  <a href="tel:+254759342212" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
+                    +254 0759 342212
                   </a>
                 </div>
               </div>
@@ -198,8 +198,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <div className="font-semibold text-primary-foreground mb-1">Email Us</div>
-                  <a href="mailto:info@monarchrental.com" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
-                    info@monarchrental.com
+                  <a href="mailto:info@monarchcarrental.com" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
+                    info@monarchcarrental.com
                   </a>
                 </div>
               </div>
@@ -210,7 +210,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <div className="font-semibold text-primary-foreground mb-1">Visit Us</div>
-                  <p className="text-primary-foreground/80">50+ Locations Worldwide</p>
+                  <p className="text-primary-foreground/80">Umoja Phase 2, Bee Center</p>
                 </div>
               </div>
             </div>

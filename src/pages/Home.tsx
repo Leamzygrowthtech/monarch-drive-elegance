@@ -32,13 +32,13 @@ const Home = () => {
             </div>
 
             <h1 className="font-playfair font-bold text-5xl md:text-7xl text-primary-foreground mb-6 leading-tight">
-              Experience Royalty
+              Where Luxury Meets
               <br />
-              <span className="text-primary">On The Road</span>
+              <span className="text-primary">Affordability</span>
             </h1>
 
             <p className="text-xl md:text-2xl text-primary-foreground/90 mb-12 max-w-2xl mx-auto leading-relaxed">
-              Premium luxury vehicles, exceptional service, and unmatched comfort for your journey
+              Self-drive car rentals around Nairobi and beyond. Premium vehicles at rates you can afford.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -63,16 +63,16 @@ const Home = () => {
 
             <div className="mt-16 flex flex-wrap justify-center gap-8 text-primary-foreground/80">
               <div className="text-center">
-                <div className="font-playfair text-4xl font-bold text-primary">500+</div>
-                <div className="text-sm">Premium Vehicles</div>
+                <div className="font-playfair text-4xl font-bold text-primary">Quality</div>
+                <div className="text-sm">Fleet Vehicles</div>
               </div>
               <div className="text-center">
-                <div className="font-playfair text-4xl font-bold text-primary">50+</div>
-                <div className="text-sm">Locations</div>
+                <div className="font-playfair text-4xl font-bold text-primary">24/7</div>
+                <div className="text-sm">Support Available</div>
               </div>
               <div className="text-center">
-                <div className="font-playfair text-4xl font-bold text-primary">10k+</div>
-                <div className="text-sm">Happy Customers</div>
+                <div className="font-playfair text-4xl font-bold text-primary">Nairobi</div>
+                <div className="text-sm">& Beyond Coverage</div>
               </div>
             </div>
           </div>

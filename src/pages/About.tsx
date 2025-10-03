@@ -19,9 +19,8 @@ const About = () => {
               About <span className="text-primary">Monarch</span>
             </h1>
             <p className="text-xl text-primary-foreground/90 leading-relaxed mb-8">
-              Founded on the principle that luxury travel should be accessible, Monarch Car Rental 
-              has been delivering exceptional experiences since our inception. We believe every journey 
-              deserves the royal treatment.
+              Where luxury meets affordability. MONARCH CAR RENTAL offers self-drive car rentals 
+              around Nairobi and beyond, making premium vehicles accessible to everyone.
             </p>
           </div>
         </div>
@@ -37,19 +36,21 @@ const About = () => {
                   Our Story
                 </h2>
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  Monarch Car Rental was born from a simple vision: to transform the car rental 
-                  experience into something extraordinary. We recognized that travelers deserve 
-                  more than just transportation—they deserve an experience that matches their 
-                  aspirations.
+                  MONARCH CAR RENTAL was founded on the belief that luxury shouldn't come with 
+                  an unreachable price tag. Based in Nairobi at Umoja Phase 2, Bee Center, we 
+                  provide self-drive car rental services that combine premium quality with 
+                  affordability.
                 </p>
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  Today, we operate across 50+ locations worldwide, maintaining a fleet of over 
-                  500 premium vehicles. Each vehicle is carefully selected and meticulously 
-                  maintained to ensure the highest standards of luxury, safety, and performance.
+                  Our fleet includes well-maintained vehicles like the Honda Fit, Mazda Demio, 
+                  and Nissan Note - all equipped with modern features to make your journey 
+                  comfortable and enjoyable. Whether you're exploring Nairobi or heading beyond, 
+                  we've got you covered.
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
-                  Our commitment to excellence has earned us the trust of over 10,000 satisfied 
-                  customers, from business executives to families seeking memorable adventures.
+                  With 24/7 customer support at +254 0759 342212, we're always here to ensure 
+                  your car rental experience is smooth and hassle-free. Your journey matters 
+                  to us.
                 </p>
               </div>
               
@@ -65,20 +66,20 @@ const About = () => {
                 </div>
                 <div className="grid grid-cols-2 gap-4">
                   <div className="bg-card border border-border rounded-lg p-6 text-center shadow-soft hover:shadow-gold transition-all duration-300 hover:-translate-y-1">
-                    <div className="font-playfair text-4xl font-bold text-primary mb-2">500+</div>
-                    <div className="text-sm text-muted-foreground">Premium Vehicles</div>
-                  </div>
-                  <div className="bg-card border border-border rounded-lg p-6 text-center shadow-soft hover:shadow-gold transition-all duration-300 hover:-translate-y-1">
-                    <div className="font-playfair text-4xl font-bold text-primary mb-2">50+</div>
-                    <div className="text-sm text-muted-foreground">Global Locations</div>
-                  </div>
-                  <div className="bg-card border border-border rounded-lg p-6 text-center shadow-soft hover:shadow-gold transition-all duration-300 hover:-translate-y-1">
-                    <div className="font-playfair text-4xl font-bold text-primary mb-2">10k+</div>
-                    <div className="text-sm text-muted-foreground">Happy Customers</div>
+                    <div className="font-playfair text-4xl font-bold text-primary mb-2">100%</div>
+                    <div className="text-sm text-muted-foreground">Quality Vehicles</div>
                   </div>
                   <div className="bg-card border border-border rounded-lg p-6 text-center shadow-soft hover:shadow-gold transition-all duration-300 hover:-translate-y-1">
                     <div className="font-playfair text-4xl font-bold text-primary mb-2">24/7</div>
                     <div className="text-sm text-muted-foreground">Customer Support</div>
+                  </div>
+                  <div className="bg-card border border-border rounded-lg p-6 text-center shadow-soft hover:shadow-gold transition-all duration-300 hover:-translate-y-1">
+                    <div className="font-playfair text-4xl font-bold text-primary mb-2">Nairobi</div>
+                    <div className="text-sm text-muted-foreground">Based Location</div>
+                  </div>
+                  <div className="bg-card border border-border rounded-lg p-6 text-center shadow-soft hover:shadow-gold transition-all duration-300 hover:-translate-y-1">
+                    <div className="font-playfair text-4xl font-bold text-primary mb-2">Self</div>
+                    <div className="text-sm text-muted-foreground">Drive Rentals</div>
                   </div>
                 </div>
               </div>
@@ -105,27 +106,27 @@ const About = () => {
                 <div className="w-12 h-12 bg-gradient-to-br from-primary to-accent rounded-full mx-auto mb-4 flex items-center justify-center">
                   <Crown className="w-6 h-6 text-primary-foreground" />
                 </div>
-                <h3 className="font-playfair font-bold text-xl text-secondary mb-3">Excellence</h3>
+                <h3 className="font-playfair font-bold text-xl text-secondary mb-3">Quality</h3>
                 <p className="text-muted-foreground">
-                  We maintain the highest standards in every aspect of our service
+                  Well-maintained vehicles with modern features for your comfort
                 </p>
               </div>
               <div>
                 <div className="w-12 h-12 bg-gradient-to-br from-primary to-accent rounded-full mx-auto mb-4 flex items-center justify-center">
                   <Crown className="w-6 h-6 text-primary-foreground" />
                 </div>
-                <h3 className="font-playfair font-bold text-xl text-secondary mb-3">Integrity</h3>
+                <h3 className="font-playfair font-bold text-xl text-secondary mb-3">Affordability</h3>
                 <p className="text-muted-foreground">
-                  Transparency and honesty guide all our customer relationships
+                  Premium vehicles at rates that won't break your budget
                 </p>
               </div>
               <div>
                 <div className="w-12 h-12 bg-gradient-to-br from-primary to-accent rounded-full mx-auto mb-4 flex items-center justify-center">
                   <Crown className="w-6 h-6 text-primary-foreground" />
                 </div>
-                <h3 className="font-playfair font-bold text-xl text-secondary mb-3">Innovation</h3>
+                <h3 className="font-playfair font-bold text-xl text-secondary mb-3">Reliability</h3>
                 <p className="text-muted-foreground">
-                  Continuously improving to exceed customer expectations
+                  24/7 support ensuring you're never stranded on the road
                 </p>
               </div>
             </div>

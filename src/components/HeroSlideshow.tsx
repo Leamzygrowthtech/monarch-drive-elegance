@@ -1,15 +1,15 @@
 import { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import hero1 from "@/assets/hero-1.jpg";
-import hero2 from "@/assets/hero-2.jpg";
-import hero3 from "@/assets/hero-3.jpg";
-import hero4 from "@/assets/hero-4.jpg";
+import hondaFitImg from "@/assets/car-honda-fit-red.jpg";
+import hondaInteriorImg from "@/assets/car-honda-fit-interior.jpg";
+import mazdaDemioImg from "@/assets/car-mazda-demio-silver.jpg";
+import nissanNoteImg from "@/assets/car-nissan-note-white.jpg";
 
 const slides = [
-  { image: hero1, alt: "Luxury sports car on coastal highway" },
-  { image: hero2, alt: "Executive sedan at premium hotel" },
-  { image: hero3, alt: "Luxury SUV mountain adventure" },
-  { image: hero4, alt: "Exotic sports car city nightlife" },
+  { image: hondaFitImg, alt: "Honda Fit - Compact and efficient" },
+  { image: hondaInteriorImg, alt: "Premium interior features" },
+  { image: mazdaDemioImg, alt: "Mazda Demio - Stylish city car" },
+  { image: nissanNoteImg, alt: "Nissan Note - Spacious and reliable" },
 ];
 
 const HeroSlideshow = () => {

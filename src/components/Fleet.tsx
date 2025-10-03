@@ -1,39 +1,39 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Crown, Users, Gauge, Shield } from "lucide-react";
-import executiveSedanImg from "@/assets/executive-sedan.jpg";
-import luxurySuvImg from "@/assets/luxury-suv.jpg";
-import sportsCarImg from "@/assets/sports-car.jpg";
-import armoredVehicleImg from "@/assets/armored-vehicle.jpg";
+import { Car, Users, Gauge, Shield, Crown } from "lucide-react";
+import hondaFitImg from "@/assets/car-honda-fit-red.jpg";
+import mazdaDemioSilverImg from "@/assets/car-mazda-demio-silver.jpg";
+import mazdaDemioWhiteImg from "@/assets/car-mazda-demio-white-back.jpg";
+import nissanNoteImg from "@/assets/car-nissan-note-white.jpg";
 
 const fleetData = [
   {
-    category: "Executive Sedans",
-    description: "Sophisticated comfort for business travel",
-    features: ["5 Passengers", "Premium Audio", "GPS Navigation"],
-    icon: Crown,
-    image: executiveSedanImg,
+    category: "Honda Fit",
+    description: "Compact and fuel-efficient city car",
+    features: ["5 Passengers", "Automatic", "Touchscreen Display"],
+    icon: Car,
+    image: hondaFitImg,
   },
   {
-    category: "Luxury SUVs",
-    description: "Spacious elegance for family adventures",
-    features: ["7 Passengers", "All-Wheel Drive", "Premium Interior"],
+    category: "Mazda Demio",
+    description: "Stylish and comfortable for city drives",
+    features: ["5 Passengers", "Fuel Efficient", "Modern Interior"],
     icon: Users,
-    image: luxurySuvImg,
+    image: mazdaDemioSilverImg,
   },
   {
-    category: "Sports Cars",
-    description: "Thrilling performance on demand",
-    features: ["High Performance", "Premium Handling", "Luxury Finish"],
+    category: "Mazda Demio Sport",
+    description: "Sporty design with great handling",
+    features: ["5 Passengers", "Sport Mode", "Premium Features"],
     icon: Gauge,
-    image: sportsCarImg,
+    image: mazdaDemioWhiteImg,
   },
   {
-    category: "Armored Vehicles",
-    description: "Ultimate security and protection",
-    features: ["VIP Security", "Bulletproof", "Professional Driver"],
+    category: "Nissan Note",
+    description: "Spacious and reliable family car",
+    features: ["5 Passengers", "Electric Hybrid", "Spacious Cabin"],
     icon: Shield,
-    image: armoredVehicleImg,
+    image: nissanNoteImg,
   },
 ];
 
