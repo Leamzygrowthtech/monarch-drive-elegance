@@ -42,6 +42,13 @@ import mazdaDemioWhiteTrunk from "@/assets/mazda-demio-white-trunk.jpg";
 import mazdaDemioControls from "@/assets/mazda-demio-controls.jpg";
 import mazdaDemioWhiteInterior from "@/assets/mazda-demio-white-interior.jpg";
 import mazdaDemioGrayFront from "@/assets/mazda-demio-gray-front.jpg";
+import mazdaCx5Badge from "@/assets/mazda-cx5-badge.jpg";
+import mazdaDemioSilverBackView from "@/assets/mazda-demio-silver-back-view.jpg";
+import mazdaDemioGrayFrontView from "@/assets/mazda-demio-gray-front-view.jpg";
+import mazdaDemioSilverBackAngle from "@/assets/mazda-demio-silver-back-angle.jpg";
+import mazdaDemioBackseatView from "@/assets/mazda-demio-backseat-view.jpg";
+import mazdaDemioFrontSeats from "@/assets/mazda-demio-front-seats.jpg";
+import mazdaDemioRearLights from "@/assets/mazda-demio-rear-lights.jpg";
 
 // Nissan Note Images
 import nissanNoteWhite from "@/assets/car-nissan-note-white.jpg";
@@ -116,6 +123,12 @@ const galleryImages = [
   { src: mazdaDemioControls, alt: "Mazda Demio Controls", category: "Mazda Demio" },
   { src: mazdaDemioWhiteInterior, alt: "Mazda Demio White Interior", category: "Mazda Demio" },
   { src: mazdaDemioGrayFront, alt: "Mazda Demio Gray Front", category: "Mazda Demio" },
+  { src: mazdaDemioSilverBackView, alt: "Mazda Demio Silver Back View", category: "Mazda Demio" },
+  { src: mazdaDemioGrayFrontView, alt: "Mazda Demio Gray Front View", category: "Mazda Demio" },
+  { src: mazdaDemioSilverBackAngle, alt: "Mazda Demio Silver Back Angle", category: "Mazda Demio" },
+  { src: mazdaDemioBackseatView, alt: "Mazda Demio Backseat View", category: "Mazda Demio" },
+  { src: mazdaDemioFrontSeats, alt: "Mazda Demio Front Seats", category: "Mazda Demio" },
+  { src: mazdaDemioRearLights, alt: "Mazda Demio Rear Lights", category: "Mazda Demio" },
   
   // Nissan Note
   { src: nissanNoteWhite, alt: "Nissan Note White", category: "Nissan Note" },
@@ -137,6 +150,7 @@ const galleryImages = [
   { src: mazdaCx5WhiteFront, alt: "Mazda CX-5 White Front", category: "Mazda CX-5" },
   { src: mazdaCx5RedFront, alt: "Mazda CX-5 Red Front", category: "Mazda CX-5" },
   { src: mazdaCx5RedSide, alt: "Mazda CX-5 Red Side", category: "Mazda CX-5" },
+  { src: mazdaCx5Badge, alt: "Mazda CX-5 AWD Badge Detail", category: "Mazda CX-5" },
   
   // Range Rover
   { src: rangeRoverWhiteBack, alt: "Range Rover White Back", category: "Range Rover Sport" },
